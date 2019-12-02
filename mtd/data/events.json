@@ -5,7 +5,7 @@
       "host": "MTD-gruppen",
       "time": "08.30-10.00",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "Loungen",
       "image": "https://aneromz.github.io/MTDlogo.png"
     },
@@ -14,7 +14,7 @@
       "host": "MTD-gruppen",
       "time": "10.00-10.15",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "K4",
       "image": "https://aneromz.github.io/MTDlogo.png"
     },
@@ -23,7 +23,7 @@
       "host": "Dan Englesson",
       "time": "10.15-11.00",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "K4",
       "image": "https://aneromz.github.io/Dan.jpg"
     },
@@ -32,7 +32,7 @@
       "host": "MTD-gruppen",
       "time": "11.00-11.15",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "Mässområdet",
       "image": "https://aneromz.github.io/MTDlogo.png"
     },
@@ -41,7 +41,7 @@
       "host": "MTD-gruppen",
       "time": "12.00-12.15",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "Mässområdet",
       "image": "https://aneromz.github.io/MTDlogo.png"
     },
@@ -50,7 +50,7 @@
       "host": "Alexander Loodin Ek och Amanat Bari",
       "time": "13.15-14.00",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "K4",
       "image": "https://aneromz.github.io/Frostbite.PNG"
     },
@@ -59,7 +59,7 @@
       "host": "MTD-gruppen",
       "time": "14.00-15.00",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "Loungen",
       "image": "https://aneromz.github.io/MTDlogo.png"
     },
@@ -68,7 +68,7 @@
       "host": "MTD-gruppen",
       "time": "15.15-16.00",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "Mässområdet",
       "image": "https://aneromz.github.io/Filip.PNG"
     },
@@ -77,7 +77,7 @@
       "host": "MTD-gruppen",
       "time": "16.00",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "K4",
       "image": "https://aneromz.github.io/MTDlogo.png"
     },
@@ -86,7 +86,7 @@
       "host": "MTD-gruppen",
       "time": "17.00-22.00",
       "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T010:30:00+0000",
+      "end": "2020-03-05T10:30:00+0000",
       "place": "K4",
       "image": "https://aneromz.github.io/MTDlogo.png"
     }
