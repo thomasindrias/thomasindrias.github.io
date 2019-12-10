@@ -1,0 +1,23 @@
+{
+  "companies": {
+    "gold": [
+      {
+        "name": "Saab",
+        "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_saab.png",
+        "offer": ["Exjobb", "Anställning"],
+        "website": "https://saab.com/",
+        "info": "Saab AB är ett svenskt företag med huvudkontor i Stockholm med huvudsaklig inriktning mot högteknologi inom försvarsindustri, civil säkerhet samt luftfart. Företaget fokuserar på tre strategiska områden: försvars- och säkerhetslösningar, system och produkter samt aeronautik. Medverkar på MTD gör avdelningen som jobbar med flygsimulatorer."
+      }
+    ],
+    "silver": [],
+    "brons": [
+      {
+        "name": "VISIARC",
+        "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_visiarc.png",
+        "offer": ["Anställning"],
+        "website": "https://visiarc.com/",
+        "info": "VISIARC är Sveriges först appstudio som designar och utvecklar kvalitetsappar. Vi är nu en erfaren design- och utvecklingsbyrå som erbjuder agil full-stack-utveckling av appar, webbappar och spel med tillhörande infrastruktur, även integrationer. Vi är passionerade och drivna innovatörer som kombinerar egen teknikutveckling av ramverk, verktyg och plattformar med innovativa konsultprojekt."
+      }
+    ]
+  }
+}
