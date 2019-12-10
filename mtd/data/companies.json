@@ -9,7 +9,15 @@
         "info": "Saab AB är ett svenskt företag med huvudkontor i Stockholm med huvudsaklig inriktning mot högteknologi inom försvarsindustri, civil säkerhet samt luftfart. Företaget fokuserar på tre strategiska områden: försvars- och säkerhetslösningar, system och produkter samt aeronautik. Medverkar på MTD gör avdelningen som jobbar med flygsimulatorer."
       }
     ],
-    "silver": [],
+    "silver": [
+      {
+        "name": "Indrias",
+        "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_saab.png",
+        "offer": ["Anställning"],
+        "website": "https://thomasindrias.com/",
+        "info": "Cool företag"
+      }
+    ],
     "brons": [
       {
         "name": "VISIARC",
