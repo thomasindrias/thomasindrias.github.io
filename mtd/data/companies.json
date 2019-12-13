@@ -1,18 +1,18 @@
 {
   "gold": [
     {
-      "name": "Saab",
-      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_saab.png",
-      "offer": ["Exjobb", "Trainee", "Sommarjobb", "Anställning"],
-      "website": "https://saab.com/",
-      "info": "Saab AB är ett svenskt företag med huvudkontor i Stockholm med huvudsaklig inriktning mot högteknologi inom försvarsindustri, civil säkerhet samt luftfart. Företaget fokuserar på tre strategiska områden: försvars- och säkerhetslösningar, system och produkter samt aeronautik. Medverkar på MTD gör avdelningen som jobbar med flygsimulatorer."
-    },
-    {
       "name": "Cygni",
       "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_cygni.png",
       "offer": ["Anställning"],
       "website": "https://saab.com/",
       "info": "Cygni grundades med visionen att skapa \"den bästa arbetsplatsen för en skicklig och ambitiös systemutvecklare\". Vi har vunnit titeln Sveriges Bästa Arbetsplats 6 år i rad och dessutom vunnit titeln Europas Bästa Arbetsplats 5 gånger i Great Place To Works världsledande medarbetarundersökning som genomförs i över 50 länder: ett fint kvitto på våra ambitioner. \n\nVi söker varje år ambitiösa nyutexade till vårt talangprogram. Talangerna får en personlig mentor, gå en rad skräddarsydda utbildningar, jobba i riktiga kundprojekt, ta relevanta certifieringar och snabbt bygga upp sin kompetens som professionella systemutvecklare. Det bästa sättet att kickstarta karriären är att gå Cygnis talangprogram!"
+    },
+    {
+      "name": "Saab",
+      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_saab.png",
+      "offer": ["Exjobb", "Trainee", "Sommarjobb", "Anställning"],
+      "website": "https://saab.com/",
+      "info": "Saab AB är ett svenskt företag med huvudkontor i Stockholm med huvudsaklig inriktning mot högteknologi inom försvarsindustri, civil säkerhet samt luftfart. Företaget fokuserar på tre strategiska områden: försvars- och säkerhetslösningar, system och produkter samt aeronautik. Medverkar på MTD gör avdelningen som jobbar med flygsimulatorer."
     }
   ],
   "silver": [
