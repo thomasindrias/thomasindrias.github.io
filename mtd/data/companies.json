@@ -15,31 +15,7 @@
       "info": "Mer info kommer snart..."
     }
   ],
-  "silver": [
-    {
-      "name": "MTD",
-      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_mtd.png",
-      "offer": [],
-      "website": "http://www.medieteknikdagarna.se/",
-      "info": "Mer info kommer snart..."
-    }
-  ],
-  "brons": [
-    {
-      "name": "MTD",
-      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_mtd.png",
-      "offer": [],
-      "website": "http://www.medieteknikdagarna.se/",
-      "info": "Mer info kommer snart..."
-    }
-  ],
-  "other": [
-    {
-      "name": "MTD",
-      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_mtd.png",
-      "offer": [],
-      "website": "http://www.medieteknikdagarna.se/",
-      "info": "Mer info kommer snart..."
-    }
-  ]
+  "silver": [],
+  "brons": [],
+  "other": []
 }
