@@ -17,7 +17,7 @@
   ],
   "silver": [
     {
-      "name": "SICK IVP AB",
+      "name": "SICK IVP",
       "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_sick.png",
       "offer": ["Exjobb", "Sommarjobb", "Anställning"],
       "website": "https://www.sick.com/se/sv/",
@@ -25,6 +25,13 @@
     }
   ],
   "brons": [
+    {
+      "name": "Sectra",
+      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_sectra.png",
+      "offer": ["Exjobb", "Sommarjobb", "Anställning"],
+      "website": "https://sectra.com/",
+      "info": "Our customers operate in some of society’s most c+ritical functions. Our job is to help them become more efficient, and to give them the tools to make peoples’ lives healthier, safer and more secure. Driven by knowledge and passion, our vision is to contribute to a healthier and safer society. Sectra develops and sells cutting-edge solutions in the expanding niche segments of medical IT and secure communications. The Sectra Group has over 700 employees worldwide, and customers in over 60 countries.\n\nAt Sectra, we work with products that are beneficial for life and society. Do you want to join us and help make a difference?"
+    },
     {
       "name": "VISIARC",
       "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_visiarc.png",
@@ -40,6 +47,13 @@
       "offer": ["Exjobb", "Praktik", "Trainee", "Sommarjobb", "Anställning"],
       "website": "https://www.sverigesingenjorer.se/",
       "info": "Vi är Sveriges största fackförbund och intresseorganisation för alla ingenjörer och teknologer. Vi hjälper dig att landa ditt drömjobb med hjälp av våra förmåner som CV-granskning, LinkedIn-granskning, intervjuträning m.m. Ett studentmedlemskap hos oss kostar 15kr/mån. Välkommen att börja ditt liv som ingenjör med oss!"
+    },
+    {
+      "name": "Cruitive",
+      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_cruitive.png",
+      "offer": ["Exjobb"],
+      "website": "https://www.cruitive.com/",
+      "info": "Forna MTare som skapar ett smart rekryteringsverktyg, kom till oss för exjobb och blomjord."
     }
   ]
 }
