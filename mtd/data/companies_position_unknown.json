@@ -53,7 +53,7 @@
     },
     {
       "name": "Sveriges Radio",
-      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_sveriges_radio.png",
+      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_sverigesradio.png",
       "offer": ["Exjobb", "Praktik", "Anställning"],
       "website": "https://sverigesradio.se/",
       "info": "\nAtt jobba på Sveriges Radio innebär att du kommer få vara med och driva utvecklingen av Sveriges Radios teknik som gör att vi kan fortsätta ligga i framkant och göra radio i världsklass. Vi säkerställer alla sändningar för våra lyssnare och mitt i händelsernas centrum blir du en viktig del av ett företag som värnar om demokrati, det fria ordet och alla människors lika värde. \nPå vår teknikenhet implementerar vi IT-lösningar som är både unika och världsledande och inom vissa områden är det vi som driver marknadens utveckling. För att kunna ta fram ny teknik i ett samhälle där allt går snabbare och snabbare måste vi vara föregångare i det nya, modiga utmanare i det oprövade och kritiska granskare av det självklara. \n"
@@ -208,7 +208,14 @@
       "offer": ["Exjobb", "Sommarjobb", "Anställning"],
       "website": "https://www.find-out.se/",
       "info": "På FindOut får du utvecklas genom våra egna visualiseringsprodukter och \nhos våra kunder som teknikkonsult. Det kan innebära allt från \nfullstackutveckling till hårdvarunära programmering. Allt för att hjälpa\n våra kunder att bli bättre och effektivare. Vi kan erbjuda en tillvaro \nmed mycket driv, engagerade medarbetare som vill hjälpas åt att utveckla\n och utvecklas, där du har möjlighet att påverka din egen roll och \nbidrag. Ett intressant och hållbart arbetsliv är viktigt för oss!\n\nVi söker främst ingenjörer som är nyfikna, har ett grymt driv och älskar\n programmering.  De personliga egenskaperna är det som i slutändan avgör\n om du är en FindOut:are!"
-    }
+    },
+    {
+      "name": "We Know IT",
+      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_weknowit.png",
+      "offer": ["Sommarjobb", "Anställning"],
+      "website": "https://weknowit.se/",
+      "info": "We Know IT är ett studentdrivet IT-konsultbolag med verksamhet i \nStockholm, Göteborg, Malmö/Lund och Linköping/Norrköping. Vi erbjuder \ntjänster inom app-, system- och webbutveckling samt bemanning. Vi \nanställer bara studenter och har många spännande partnerföretag med \nvilka vi har event och internutbildningar. Läs mer om oss på \nwww.weknowit.se"
+    },
     {
       "name": "Dimfrost Studio",
       "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_dimfroststudio.png",
@@ -236,6 +243,13 @@
       "offer": ["Exjobb", "Anställning"],
       "website": "https://www.bontouch.com/",
       "info": "Bontouch is an award-winning product innovation agency. We have all \nskills required for modern digital product development, including \nstrategy, design, development and maintenance.\n\nWe specialize in analog-to-digital experiences, using digital \ntechnologies to reduce friction in the real world. Built as a product \nstartup, we offer a unique long-term engagement model to our brand \npartners and become their software startup as-a-service.\n\nBy adding software as a “layer” on top of physical goods and services, \nwe help our clients to transform their customer experience, to \nsignificantly increase their rate of innovation, and to create \nsustainable differentiation in completely new areas. Ever since our \nstart in 2008, we have been fortunate enough to join up with amazing \nbrands such as Post-it®, Swedish Railways (SJ), PostNord and Swish."
+    },
+    {
+      "name": "Unitalent",
+      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_unitalent.png",
+      "offer": ["Sommarjobb", "Anställning"],
+      "website": "https://unitalent.se/",
+      "info": "Unitalent erbjuder studenter vid Linköpings universitet kvalitativa, spännande och lärorika konsultuppdrag under studietiden. Konsultuppdragen ger dig som student möjligheten att skaffa värdefulla erfarenheter och kontakter i näringslivet samtidigt som du får chansen att utveckla din kompetens. Vi söker drivna och ambitiösa studenter som vill ta ett första kliv ut i arbetslivet."
     }
   ]
 }
