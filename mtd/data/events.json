@@ -1,23 +1,13 @@
 {
   "events": [
     {
-      "title": "Frukost",
-      "host": "MTD-gruppen",
-      "time": "08.30-10.00",
-      "start": "2020-01-15T08:30:00+0000",
-      "end": "2020-01-15T10:30:00+0000",
-      "place": "Loungen",
-      "image": "https://aneromz.github.io/MTDlogo.png",
-      "description": "Vi bjuder på smörgåstårta deluxé!!"
-    },
-    {
-      "title": "Mässan öppnar - Välkomsttal",
+      "title": "Thomas spelar in demo",
       "host": "MTD-gruppen",
       "time": "10.00-10.15",
-      "start": "2020-01-16T08:30:00+0000",
-      "end": "2020-01-17T22:30:00+0000",
-      "place": "K4",
-      "image": "https://aneromz.github.io/MTDlogo.png"
+      "start": "2020-01-21T08:30:00+0000",
+      "end": "2020-01-21T22:30:00+0000",
+      "place": "Klockan",
+      "image": "https://preview.redd.it/zkqhyvhqqzk31.jpg?auto=webp&s=f9f1bae4689c806e10d9a3846bb1907c2c31fc6c"
     },
     {
       "title": "En inblick i VFX industrin",
