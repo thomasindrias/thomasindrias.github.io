@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "title": "Thomas spelar in demo",
-      "host": "MTD-gruppen",
-      "time": "10.00-10.15",
-      "start": "2020-01-21T08:30:00+0000",
-      "end": "2020-01-21T22:30:00+0000",
-      "place": "Klockan",
-      "image": "https://preview.redd.it/zkqhyvhqqzk31.jpg?auto=webp&s=f9f1bae4689c806e10d9a3846bb1907c2c31fc6c"
-    },
-    {
       "title": "En inblick i VFX industrin",
       "host": "Dan Englesson",
       "time": "10.15-11.00",
