@@ -1,76 +1,130 @@
 {
   "events": [
     {
-      "title": "En inblick i VFX industrin",
-      "host": "Dan Englesson",
-      "time": "10.15-11.00",
-      "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T10:30:00+0000",
+      "title": "Pre-MTD: Föreläsning med Cygni",
+      "host": "Cygni",
+      "time": "12.15-13.00",
+      "start": "2020-02-24T12:15:00+0000",
+      "end": "2020-02-24T13:00:00+0000",
       "place": "K4",
-      "image": "https://aneromz.github.io/Dan.jpg"
+      "image": "https://cygni.se/content/images/2019/10/tobe-on-stage.jpg"
     },
     {
-      "title": "Skattjakt 1",
-      "host": "MTD-gruppen",
-      "time": "11.00-11.15",
-      "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T10:30:00+0000",
-      "place": "Mässområdet",
-      "image": "https://aneromz.github.io/MTDlogo.png"
+      "title": "Pre-MTD: Lunchföreläsning med Spotify",
+      "host": "Spotify",
+      "time": "12.15-13.00",
+      "start": "2020-02-24T12:15:00+0000",
+      "end": "2020-02-24T13:00:00+0000",
+      "place": "K4",
+      "image": "https://www.scdn.co/i/_global/open-graph-default.png"
     },
     {
-      "title": "Skattjakt 2",
-      "host": "MTD-gruppen",
-      "time": "12.00-12.15",
-      "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T10:30:00+0000",
-      "place": "Mässområdet",
-      "image": "https://aneromz.github.io/MTDlogo.png"
+      "title": "Pre-MTD: Workshop med Spotify",
+      "host": "Spotify",
+      "time": "17.15-19.00",
+      "start": "2020-02-24T17:15:00+0000",
+      "end": "2020-02-24T19:00:00+0000",
+      "place": "Färgeriet",
+      "image": "https://smp.vgc.no/v2/images/429bb6da-dfe1-4b89-a187-c735bfc46a2d?fit=crop&h=1068&w=1900&s=043a6c45b14e3e35f661d3e623991772d141f9be"
     },
     {
-      "title": "Building a flexible core engine",
-      "host": "Alexander Loodin Ek och Amanat Bari",
+      "title": "Pre-MTD: Tävling! (mer info kommer)",
+      "host": "MTD",
+      "time": "17.15-19.00",
+      "start": "2020-02-25T17:15:00+0000",
+      "end": "2020-02-25T19:00:00+0000",
+      "place": "Plats kommer.",
+      "image": "https://lh3.google.com/u/0/d/1443lL_kHGbEOvrF_l4XVbFKriDQgnJgu=w2880-h1652-iv1"
+    },
+    {
+      "title": "Pre-MTD: Lunchföreläsning och tävling med SAAB!",
+      "host": "SAAB",
+      "time": "12.15-13.00",
+      "start": "2020-02-26T12:15:00+0000",
+      "end": "2020-02-26T13:00:00+0000",
+      "place": "K4",
+      "image": "https://saab.com/globalassets/scaled/720x431x80/gripen-com-the-fighter-gripen-e/gripen-e_oar_2340.jpg"
+    },
+    {
+      "title": "Pre-MTD: Pub!",
+      "host": "MTD",
+      "time": "19.00-21.00",
+      "start": "2020-02-27T19:00:00+0000",
+      "end": "2020-02-27T21:00:00+0000",
+      "place": "Vattentornet",
+      "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/14711524_1150412625006349_218523826989745252_o.png?_nc_cat=106&_nc_ohc=syQTcfqfyJoAX94EJpn&_nc_ht=scontent-arn2-1.xx&oh=c63ebc874aefcee035a9d8f371966958&oe=5EC4AC51"
+    },
+    {
+      "title": "Pre-MTD: Tävling (mer info kommer)",
+      "host": "MTD",
+      "time": "12.15-13.00",
+      "start": "2020-02-28T12:15:00+0000",
+      "end": "2020-02-28T13:00:00+0000",
+      "place": "Plats kommer.",
+      "image": "https://lh3.google.com/u/0/d/1443lL_kHGbEOvrF_l4XVbFKriDQgnJgu=w2880-h1652-iv1"
+    },
+    {
+      "title": "Pre-MTD: Värd-kickoff med Gaia!",
+      "host": "Gaia",
+      "time": "19.00-21.00",
+      "start": "2020-03-3T19.00:00+0000",
+      "end": "2020-03-3T21.00:00+0000",
+      "place": "Plats kommer.",
+      "image": "https://gfmgaiase.blob.core.windows.net/media/2019/05/header-2019-3-blue.jpg"
+    },
+    {
+      "title": "Mässan Öpnnar!",
+      "host": "MTD",
+      "time": "09.00-16.00",
+      "start": "2020-03-05T09:00:00+0000",
+      "end": "2020-03-05T09:15:00+0000",
+      "place": "Trappan",
+      "image": "https://lh3.google.com/u/0/d/1443lL_kHGbEOvrF_l4XVbFKriDQgnJgu=w2880-h1652-iv1"
+    },
+    {
+      "title": "Föreläsning med Important Looking Pirates!",
+      "host": "Important Looking Pirates",
+      "time": "09.15-10.00",
+      "start": "2020-03-05T09:15:00+0000",
+      "end": "2020-03-05T10:00:00+0000",
+      "place": "TP1",
+      "image": "http://ilpvfx.com/img/c7f0eb60b8f5353d/eye.png"
+    },
+    {
+      "title": "Tävling 1 (mer info kommer)",
+      "host": "MTD",
+      "time": "12.00-13.00",
+      "start": "2020-03-05T12:00:00+0000",
+      "end": "2020-03-05T14:00:00+0000",
+      "place": "Trappan",
+      "image": "https://lh3.google.com/u/0/d/1443lL_kHGbEOvrF_l4XVbFKriDQgnJgu=w2880-h1652-iv1"
+    },
+    {
+      "title": "Föreläsning 2 (mer info kommer)",
+      "host": "-",
       "time": "13.15-14.00",
-      "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T10:30:00+0000",
-      "place": "K4",
-      "image": "https://aneromz.github.io/Frostbite.PNG"
+      "start": "2020-03-05T13:15:00+0000",
+      "end": "2020-03-05T14:00:00+0000",
+      "place": "TP1",
+      "image": "https://lh3.google.com/u/0/d/1443lL_kHGbEOvrF_l4XVbFKriDQgnJgu=w2880-h1652-iv1"
     },
     {
-      "title": "Miljötävling",
-      "host": "MTD-gruppen",
-      "time": "14.00-15.00",
-      "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T10:30:00+0000",
-      "place": "Loungen",
-      "image": "https://aneromz.github.io/MTDlogo.png"
+      "title": "Tävling 2 (mer info kommer)",
+      "host": "MTD",
+      "time": "14.00-15.30",
+      "start": "2020-03-05T14:00:00+0000",
+      "end": "2020-03-05T15:30:00+0000",
+      "place": "Trappan",
+      "image": "https://lh3.google.com/u/0/d/1443lL_kHGbEOvrF_l4XVbFKriDQgnJgu=w2880-h1652-iv1"
     },
     {
-      "title": "Från MT till kostymnisse \n till enreprenör",
-      "host": "MTD-gruppen",
-      "time": "15.15-16.00",
-      "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T10:30:00+0000",
-      "place": "Mässområdet",
-      "image": "https://aneromz.github.io/Filip.PNG"
-    },
-    {
-      "title": "Mässan stänger",
-      "host": "MTD-gruppen",
-      "time": "16.00",
-      "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T10:30:00+0000",
-      "place": "K4",
-      "image": "https://aneromz.github.io/MTDlogo.png"
-    },
-    {
-      "title": "MTD-Pub",
-      "host": "MTD-gruppen",
-      "time": "17.00-22.00",
-      "start": "2020-03-05T08:30:00+0000",
-      "end": "2020-03-05T10:30:00+0000",
-      "place": "K4",
-      "image": "https://aneromz.github.io/MTDlogo.png"
+      "title": "MTD Banketten!!",
+      "host": "MTD",
+      "time": "19.00-01.00",
+      "start": "2020-03-05T19:00:00+0000",
+      "end": "2020-03-06T01:00:00+0000",
+      "place": "Louis De Geer konsert & kongress",
+      "image": "https://lh3.google.com/u/0/d/1wdZ0VyM2snbmyTPRDur7DhhsGm2JL2i2=w2880-h1652-iv1"
     }
   ]
 }
