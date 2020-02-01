@@ -285,6 +285,20 @@
       "offer": ["Sommarjobb", "Anställning"],
       "website": "https://unitalent.se/",
       "info": "Unitalent erbjuder studenter vid Linköpings universitet kvalitativa, spännande och lärorika konsultuppdrag under studietiden. Konsultuppdragen ger dig som student möjligheten att skaffa värdefulla erfarenheter och kontakter i näringslivet samtidigt som du får chansen att utveckla din kompetens. Vi söker drivna och ambitiösa studenter som vill ta ett första kliv ut i arbetslivet."
+    },
+    {
+      "name": "Paf",
+      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_paf.png",
+      "offer": ["Anställning"],
+      "website": "https://aboutpaf.com/",
+      "info": "Paf är ett nordiskt spelbolag som grundades 1966 på Åland för att generera vinst till samhällsnyttiga ändamål. Vi blev ett av de första spelbolagen online när vi 1999 tog verksamheten till nätet. Många av Paf.coms spel har skapats av vår egen Games Studio och finns därmed bara hos oss. Vi är prisbelönta och branschledande inom ansvarsfullt spelande. Paf bedriver också fysisk spelverksamhet ombord på över 30 kryssningsfartyg på Östersjön och Nordsjön.\n\nPaf har cirka 400 anställda från över 30 olika länder och vi har kontor på Åland samt i Helsingfors, Stockholm, Riga, Tallinn, Oslo, Norrköping och Madrid. Paf (Ålands Penningautomatförening) licensieras och kontrolleras av Ålands landskapsregering. \n\nUnder 2018 omsatte Paf-koncernen sammanlagt 111,8 miljoner euro och gjorde en vinst på 24,6 miljoner euro. Mer information finns på aboutpaf.com"
+    },
+    {
+      "name": "Goodbye Kansas Studios",
+      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_gbk.png",
+      "offer": ["Exjobb", "Anställning"],
+      "website": "https://goodbyekansasstudios.com/",
+      "info": "Goodbye Kansas Studios creates award-winning VFX, digital animation and perfomance capture for film, TV-series, games, gametrailers and commercials."
     }
   ]
 }
