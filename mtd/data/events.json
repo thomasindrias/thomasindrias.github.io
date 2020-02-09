@@ -28,16 +28,7 @@
       "image": "https://smp.vgc.no/v2/images/429bb6da-dfe1-4b89-a187-c735bfc46a2d?fit=crop&h=1068&w=1900&s=043a6c45b14e3e35f661d3e623991772d141f9be"
     },
     {
-      "title": "Pre-MTD: Tävling! (mer info kommer)",
-      "host": "MTD",
-      "time": "17.15-19.00",
-      "start": "2020-02-25T17:15:00+0000",
-      "end": "2020-02-25T19:00:00+0000",
-      "place": "Plats kommer.",
-      "image": "https://lh3.googleusercontent.com/IDvO5OJL9b1382CMP-kjXUFInQDRcBH30PpViJEPCNaos-Cj8UOvyPwKeONmPNkOmik4cqcr6FcMSfAWttvnlHJ9q3-7NbN24etwzghfwtGsbokOc2t8-TWLUlAu68xBhDJShmp4586z6L50izizBq9si_n-RnBnnzBjOFnu_i0Z6HAvq3rNN00E4nDwlxHIxiTkcZ5BDgXVUnLIua9dToYMAfoS6nR9gpgc1R3vAY9F3ubwt5h_pctTI_jBlmyOmXkV1D7JhxSkcdtzmVp-wyIDX8P3oTuhn6lYhinPvg5yH-q2f3HNuK-swnDi9IqiyA-V4JzQUNGE-U0GPwIk2_8P2pGDBBj94lvHp3UNerWmYiC1AHKYUILTmoMysNSlaw2_H6DCqBsWtkSWOxxiaAs0G58xo72hKnAPyrAHyOaWcYbkR7ztr9Pb5t6LbXWprD_e78Yfx_vtlVNa2TkF7Opdbrj_RM42yGrSZixpKRnXPh8cHqVqzW9PzeH_u2ZPQixPW8bg68ZQrI-yfnwSBQexUz9tXHrQ94Gmj7EbXGXsAwSQbyShgiyTR12mSakcH4nzfoXTRhxkIJHXItxOhgTG8jvgCV5y68DlqmKm-Sod-Z_uuJDL_dBqHUnamzP0e_nGuAlnp4UmfimyPuL6Ul_BOE_h6ZpLYslJghWKttpVMNjKGBNqAmZovQEQC40=w2880-h1652-ft"
-    },
-    {
-      "title": "Pre-MTD: Lunchföreläsning och tävling med SAAB!",
+      "title": "Pre-MTD: Lunchföreläsning med SAAB!",
       "host": "SAAB",
       "time": "12.15-13.00",
       "start": "2020-02-26T12:15:00+0000",
@@ -55,25 +46,16 @@
       "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/14711524_1150412625006349_218523826989745252_o.png?_nc_cat=106&_nc_ohc=syQTcfqfyJoAX94EJpn&_nc_ht=scontent-arn2-1.xx&oh=c63ebc874aefcee035a9d8f371966958&oe=5EC4AC51"
     },
     {
-      "title": "Pre-MTD: Tävling (mer info kommer)",
-      "host": "MTD",
-      "time": "12.15-13.00",
-      "start": "2020-02-28T12:15:00+0000",
-      "end": "2020-02-28T13:00:00+0000",
-      "place": "Plats kommer.",
-      "image": "https://lh3.googleusercontent.com/IDvO5OJL9b1382CMP-kjXUFInQDRcBH30PpViJEPCNaos-Cj8UOvyPwKeONmPNkOmik4cqcr6FcMSfAWttvnlHJ9q3-7NbN24etwzghfwtGsbokOc2t8-TWLUlAu68xBhDJShmp4586z6L50izizBq9si_n-RnBnnzBjOFnu_i0Z6HAvq3rNN00E4nDwlxHIxiTkcZ5BDgXVUnLIua9dToYMAfoS6nR9gpgc1R3vAY9F3ubwt5h_pctTI_jBlmyOmXkV1D7JhxSkcdtzmVp-wyIDX8P3oTuhn6lYhinPvg5yH-q2f3HNuK-swnDi9IqiyA-V4JzQUNGE-U0GPwIk2_8P2pGDBBj94lvHp3UNerWmYiC1AHKYUILTmoMysNSlaw2_H6DCqBsWtkSWOxxiaAs0G58xo72hKnAPyrAHyOaWcYbkR7ztr9Pb5t6LbXWprD_e78Yfx_vtlVNa2TkF7Opdbrj_RM42yGrSZixpKRnXPh8cHqVqzW9PzeH_u2ZPQixPW8bg68ZQrI-yfnwSBQexUz9tXHrQ94Gmj7EbXGXsAwSQbyShgiyTR12mSakcH4nzfoXTRhxkIJHXItxOhgTG8jvgCV5y68DlqmKm-Sod-Z_uuJDL_dBqHUnamzP0e_nGuAlnp4UmfimyPuL6Ul_BOE_h6ZpLYslJghWKttpVMNjKGBNqAmZovQEQC40=w2880-h1652-ft"
-    },
-    {
       "title": "Pre-MTD: Värd-kickoff med Gaia!",
       "host": "Gaia",
-      "time": "19.00-21.00",
+      "time": "17.30-21.00",
       "start": "2020-03-03T19:00:00+0000",
       "end": "2020-03-03T21:00:00+0000",
-      "place": "Plats kommer.",
+      "place": "Gaias kontor, Kungsgatan 56",
       "image": "https://gfmgaiase.blob.core.windows.net/media/2019/05/header-2019-3-blue.jpg"
     },
     {
-      "title": "Mässan Öpnnar!",
+      "title": "Mässan Öppnar!",
       "host": "MTD",
       "time": "09.00-16.00",
       "start": "2020-03-05T09:00:00+0000",
@@ -91,30 +73,12 @@
       "image": "http://ilpvfx.com/img/c7f0eb60b8f5353d/eye.png"
     },
     {
-      "title": "Tävling 1 (mer info kommer)",
-      "host": "MTD",
-      "time": "12.00-13.00",
-      "start": "2020-03-05T12:00:00+0000",
-      "end": "2020-03-05T14:00:00+0000",
-      "place": "Trappan",
-      "image": "https://lh3.googleusercontent.com/IDvO5OJL9b1382CMP-kjXUFInQDRcBH30PpViJEPCNaos-Cj8UOvyPwKeONmPNkOmik4cqcr6FcMSfAWttvnlHJ9q3-7NbN24etwzghfwtGsbokOc2t8-TWLUlAu68xBhDJShmp4586z6L50izizBq9si_n-RnBnnzBjOFnu_i0Z6HAvq3rNN00E4nDwlxHIxiTkcZ5BDgXVUnLIua9dToYMAfoS6nR9gpgc1R3vAY9F3ubwt5h_pctTI_jBlmyOmXkV1D7JhxSkcdtzmVp-wyIDX8P3oTuhn6lYhinPvg5yH-q2f3HNuK-swnDi9IqiyA-V4JzQUNGE-U0GPwIk2_8P2pGDBBj94lvHp3UNerWmYiC1AHKYUILTmoMysNSlaw2_H6DCqBsWtkSWOxxiaAs0G58xo72hKnAPyrAHyOaWcYbkR7ztr9Pb5t6LbXWprD_e78Yfx_vtlVNa2TkF7Opdbrj_RM42yGrSZixpKRnXPh8cHqVqzW9PzeH_u2ZPQixPW8bg68ZQrI-yfnwSBQexUz9tXHrQ94Gmj7EbXGXsAwSQbyShgiyTR12mSakcH4nzfoXTRhxkIJHXItxOhgTG8jvgCV5y68DlqmKm-Sod-Z_uuJDL_dBqHUnamzP0e_nGuAlnp4UmfimyPuL6Ul_BOE_h6ZpLYslJghWKttpVMNjKGBNqAmZovQEQC40=w2880-h1652-ft"
-    },
-    {
-      "title": "Föreläsning 2 (mer info kommer)",
+      "title": "Open Space",
       "host": "-",
       "time": "13.15-14.00",
       "start": "2020-03-05T13:15:00+0000",
       "end": "2020-03-05T14:00:00+0000",
       "place": "TP1",
-      "image": "https://lh3.googleusercontent.com/IDvO5OJL9b1382CMP-kjXUFInQDRcBH30PpViJEPCNaos-Cj8UOvyPwKeONmPNkOmik4cqcr6FcMSfAWttvnlHJ9q3-7NbN24etwzghfwtGsbokOc2t8-TWLUlAu68xBhDJShmp4586z6L50izizBq9si_n-RnBnnzBjOFnu_i0Z6HAvq3rNN00E4nDwlxHIxiTkcZ5BDgXVUnLIua9dToYMAfoS6nR9gpgc1R3vAY9F3ubwt5h_pctTI_jBlmyOmXkV1D7JhxSkcdtzmVp-wyIDX8P3oTuhn6lYhinPvg5yH-q2f3HNuK-swnDi9IqiyA-V4JzQUNGE-U0GPwIk2_8P2pGDBBj94lvHp3UNerWmYiC1AHKYUILTmoMysNSlaw2_H6DCqBsWtkSWOxxiaAs0G58xo72hKnAPyrAHyOaWcYbkR7ztr9Pb5t6LbXWprD_e78Yfx_vtlVNa2TkF7Opdbrj_RM42yGrSZixpKRnXPh8cHqVqzW9PzeH_u2ZPQixPW8bg68ZQrI-yfnwSBQexUz9tXHrQ94Gmj7EbXGXsAwSQbyShgiyTR12mSakcH4nzfoXTRhxkIJHXItxOhgTG8jvgCV5y68DlqmKm-Sod-Z_uuJDL_dBqHUnamzP0e_nGuAlnp4UmfimyPuL6Ul_BOE_h6ZpLYslJghWKttpVMNjKGBNqAmZovQEQC40=w2880-h1652-ft"
-    },
-    {
-      "title": "Tävling 2 (mer info kommer)",
-      "host": "MTD",
-      "time": "14.00-15.30",
-      "start": "2020-03-05T14:00:00+0000",
-      "end": "2020-03-05T15:30:00+0000",
-      "place": "Trappan",
       "image": "https://lh3.googleusercontent.com/IDvO5OJL9b1382CMP-kjXUFInQDRcBH30PpViJEPCNaos-Cj8UOvyPwKeONmPNkOmik4cqcr6FcMSfAWttvnlHJ9q3-7NbN24etwzghfwtGsbokOc2t8-TWLUlAu68xBhDJShmp4586z6L50izizBq9si_n-RnBnnzBjOFnu_i0Z6HAvq3rNN00E4nDwlxHIxiTkcZ5BDgXVUnLIua9dToYMAfoS6nR9gpgc1R3vAY9F3ubwt5h_pctTI_jBlmyOmXkV1D7JhxSkcdtzmVp-wyIDX8P3oTuhn6lYhinPvg5yH-q2f3HNuK-swnDi9IqiyA-V4JzQUNGE-U0GPwIk2_8P2pGDBBj94lvHp3UNerWmYiC1AHKYUILTmoMysNSlaw2_H6DCqBsWtkSWOxxiaAs0G58xo72hKnAPyrAHyOaWcYbkR7ztr9Pb5t6LbXWprD_e78Yfx_vtlVNa2TkF7Opdbrj_RM42yGrSZixpKRnXPh8cHqVqzW9PzeH_u2ZPQixPW8bg68ZQrI-yfnwSBQexUz9tXHrQ94Gmj7EbXGXsAwSQbyShgiyTR12mSakcH4nzfoXTRhxkIJHXItxOhgTG8jvgCV5y68DlqmKm-Sod-Z_uuJDL_dBqHUnamzP0e_nGuAlnp4UmfimyPuL6Ul_BOE_h6ZpLYslJghWKttpVMNjKGBNqAmZovQEQC40=w2880-h1652-ft"
     },
     {
