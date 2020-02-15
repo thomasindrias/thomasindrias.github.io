@@ -299,6 +299,13 @@
       "offer": ["Exjobb", "Anställning"],
       "website": "https://goodbyekansasstudios.com/",
       "info": "Goodbye Kansas Studios creates award-winning VFX, digital animation and perfomance capture for film, TV-series, games, gametrailers and commercials."
+    },
+    {
+      "name": "Hemnet",
+      "logo": "http://thomasindrias.github.io/mtd/assets/logos/logo_hemnet.png",
+      "offer": ["Anställning"],
+      "website": "https://www.hemnet.se/",
+      "info": "Hemnet is Sweden's largest property portal. Since the start in 1998, we have been the natural meeting place for real estate agents as well as for property sellers and buyers. Our vision is to be the key to a simpler property transaction. Therefore, Hemnet offers the largest inventory of properties for sale on the market; the most number of potential buyers; products through which sellers are able to influence the selling of their property, and products that gives real estate agents the opportunity to strengthen their brand. We are one of Sweden's largest web sites and apps with 3.1 million visitors a week - and based on population we are the most popular property portal in the world."
     }
   ]
 }
