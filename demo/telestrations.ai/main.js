@@ -6,7 +6,7 @@ var model;
 var gm;
 const imgSize = 28;
 //const path = 'model1';
-const path = "data/model3";
+const path = "data/model10";
 var players = [];
 const APIKEY = "y-bm_k6E6SHHkWoUXCcgPDrHRp-YhwbtwHRASagi9mM";
 
@@ -16,7 +16,7 @@ $(() => {
   canvas.backgroundColor = "#ffffff";
   canvas.isDrawingMode = 0;
   canvas.freeDrawingBrush.color = "black";
-  canvas.freeDrawingBrush.width = 10;
+  canvas.freeDrawingBrush.width = 8;
   canvas.renderAll();
 
   //listeners
@@ -45,6 +45,21 @@ async function init() {
   canvas.isDrawingMode = 1;
 
   await loadCategories();
+}
+
+function showModel() {
+  var el = document.getElementById("tfjs-visor-container");
+
+  if (!el) {
+    const surface = {
+      name: "Model Summary",
+      tab: "Model Inspection",
+    };
+
+    tfvis.show.layer(surface, model);
+  } else {
+    tfvis.visor().toggle();
+  }
 }
 
 // Record the drawings coords
@@ -77,7 +92,7 @@ function getFrame() {
     names.forEach((name, i) => {
       preds.push({
         keyword: name.split("_").join(" "),
-        prob: probs[i].toFixed(3) * 100
+        prob: probs[i].toFixed(3) * 100,
       });
     });
 
@@ -282,8 +297,13 @@ function stateHandler(e = null, restart = false) {
   if (gm.playerIndex === 0) {
     hideAndShowElementsByID("welcome-state", "game-state");
 
+    // Show exit button
+    document
+      .getElementById("exit-button")
+      .style.setProperty("display", "block", "important");
+
     // Add players to game state
-    gm.players = players;
+    gm.players = players.sort(() => Math.random() - 0.5);
   }
 
   if (gm.players.length < 2) return;
@@ -297,7 +317,7 @@ function stateHandler(e = null, restart = false) {
   // End state
   if (gm.playerIndex === gm.players.length && gm.state !== 1) {
     console.log("End state");
-    players = [];
+    //players = [];
     gm.endState();
     return;
   }
@@ -341,5 +361,5 @@ function hideAndShowElementsByID(hideID, showID) {
 }
 
 function hide(el) {
-  el.parentNode.parentNode.style.setProperty("display", "none", "important");
+  el.parentNode.parentNode.parentNode.style.setProperty("display", "none", "important");
 }
