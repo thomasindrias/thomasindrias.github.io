@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>AudioViz - Three.js</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+
+			body {
+				font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+				background: linear-gradient(0deg, #1a001b, #0c0c0c);
+				background-size: 400% 400%;
+
+				-webkit-animation: AnimationName 36s ease infinite;
+				-moz-animation: AnimationName 36s ease infinite;
+				animation: AnimationName 36s ease infinite;
+
+				margin: 0px;
+				overflow: hidden;
+
+				@-webkit-keyframes AnimationName {
+					0%{background-position:49% 0%}
+					50%{background-position:52% 100%}
+					100%{background-position:49% 0%}
+				}
+				@-moz-keyframes AnimationName {
+					0%{background-position:49% 0%}
+					50%{background-position:52% 100%}
+					100%{background-position:49% 0%}
+				}
+				@keyframes AnimationName {
+					0%{background-position:49% 0%}
+					50%{background-position:52% 100%}
+					100%{background-position:49% 0%}
+				}
+
+			}
+
+			a {
+				color:#0078ff;
+			}
+
+			h1 {
+				color: #fff;
+				font-weight: 200;
+				font-size: 1.5em;
+				margin: 10px;
+			}
+
+			#songName {
+				position: absolute;
+				bottom: 0;
+			}
+		</style>
+	</head>
+	<body>
+        <input id="files" type="file" accept=".mp3, .ogg|audio/*" style="visibility:hidden" />
+        <div id="songName"><h1></h1></div>
+        <script src="scripts/three.js"></script>
+        <script src="scripts/jquery-3.3.1.js"></script>
+		<script src="scripts/Projector.js"></script>
+		<script src="scripts/CanvasRenderer.js"></script>
+		<script src="scripts/OrbitControls.js"></script>
+		<script src="scripts/dat.gui.min.js"></script>
+		<script src="scripts/stats.min.js"></script>
+
+		<script>
+
+			var SEPARATION = 100, AMOUNTX = 1, AMOUNTY = 64;
+
+			var container, stats, gui = new dat.GUI( { width: 350 } ),
+                options, material = [], params, sound,
+                audioLoader = new THREE.AudioLoader();
+			var camera, scene, renderer, output = [];
+
+			var particles, particle, count = 0;
+			var analyser, data, fftSize = 1024;
+
+			var mouseX = 0, mouseY = 0;
+
+			var windowHalfX = window.innerWidth / 2;
+			var windowHalfY = window.innerHeight / 2;
+
+			init();
+			animate();
+
+			function init() {
+
+				container = document.createElement( 'div' );
+				document.body.appendChild( container );
+
+				camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 100000 );
+				camera.position.z = 1000;
+
+				scene = new THREE.Scene();
+
+				particles = new Array();
+
+				options = {
+					amp_slider: 0.5,
+					freq: 1,
+					volume: 0.5,
+					color_picker: '#ffffff',
+					strings: 1,
+					length: 64,
+					margin: 100,
+					fftSizeSlider: fftSize.toString(),
+					disco: false
+                };
+                params = {
+                    loadFile : function() { 
+                            document.getElementById('files').click();
+                    }
+                };
+
+				gui.add(params, "loadFile").name('Load song').onChange(function() {
+                    document.getElementById("files").addEventListener("change", handleFiles, false);
+                });
+				gui.add(options, "amp_slider", 0, 1).name('Amplitude Slider');
+				gui.add(options, "freq", 0, 1).name('Frequency Slider');
+				gui.add(options, "volume", 0, 1).name('Volume').onChange(function (value) { 
+					sound.setVolume(value);
+				 });
+				gui.add(options, "color_picker").name('Color Picker').listen();
+				gui.add(options, "disco").name('Disco').listen();
+				gui.add(options, "length", 1, 500).name('Length').listen().onChange(function (value) {
+					AMOUNTY = parseInt(Math.round(value))
+					createStrings();
+					//console.log(AMOUNTY)
+				});
+				gui.add(options, "strings", 1, 500).name('Strings').listen().onChange(function (value) {
+					AMOUNTX = parseInt(Math.round(value))
+					createStrings();
+					//console.log(analyser.data)
+				});
+				gui.add(options, "margin", 1, 500).name('Margin').listen().onChange(function (value) {
+					SEPARATION = value;
+					createStrings();
+					//console.log(analyser.data)
+				});
+				gui.add(options, "fftSizeSlider").name('FFT Size').listen().onFinishChange(function (value) {
+					fftSize = parseInt(value);
+					analyser = new THREE.AudioAnalyser(sound, fftSize);
+				});
+				
+				//Creates particles
+				createStrings();
+
+				renderer = new THREE.CanvasRenderer({ antialias: true, alpha: true});
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				renderer.setClearColor(0x000000, 0.0);
+				container.appendChild( renderer.domElement );
+				
+				controls = new THREE.OrbitControls( camera, renderer.domElement );
+				controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
+				controls.dampingFactor = 0.25;
+				controls.screenSpacePanning = false;
+				controls.minDistance = 1000;
+				controls.maxDistance = 20000;
+				controls.maxPolarAngle = Math.PI / 2;
+
+				stats = new Stats();
+				container.appendChild( stats.dom );
+
+				var listener = new THREE.AudioListener();
+				camera.add(listener);
+
+				// create an Audio source
+				sound = new THREE.Audio(listener);
+
+				// create an AudioAnalyser, passing in the sound and desired fftSize
+				analyser = new THREE.AudioAnalyser(sound, fftSize);
+
+				//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+			}
+
+			function onWindowResize() {
+
+				windowHalfX = window.innerWidth / 2;
+				windowHalfY = window.innerHeight / 2;
+
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+
+				renderer.setSize( window.innerWidth, window.innerHeight );
+
+			}
+
+			//
+
+			function animate() {
+
+				requestAnimationFrame( animate );
+				controls.update();
+				
+				analyser.getFrequencyData()
+				// get the average frequency of the sound
+				data = analyser.getAverageFrequency(analyser.data);
+				//console.log(data)
+
+				render();
+				stats.update();
+
+			}
+
+			function render() {
+
+				var i = 0;
+
+				if(!options.disco)
+					particleColor(options.color_picker);
+				else particleDisco();
+
+				for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
+
+					//var ampX = analyser.data[ix] / 256;
+
+					for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
+
+						//var ampY = analyser.data[iy] / 256;
+						
+						var amp = 3 * analyser.data[iy] * options.amp_slider;
+
+						particle = particles[ i++ ];
+            particle.position.y = ( amp * Math.sin( ( ix + count*(amp * options.freq/100)) * 20/AMOUNTY ) * 50 ) +
+							(  amp * Math.sin( ( iy + count*(amp * options.freq/100)) * 20/AMOUNTY ) * 50 );
+						particle.scale.x = particle.scale.y = ( amp * Math.sin( ( ix + count ) * 0.3 ) + 1 ) * 4 +
+							( amp * 0.5 * Math.sin( ( iy + count  ) * 0.5 ) + 1 ) * 4;
+
+					}
+
+				}
+
+				renderer.render( scene, camera );
+
+				count += 0.06;
+
+			}
+            
+            //Set particle color
+			function particleColor(color_val) {
+				color_val = color_val.replace('#', '0x');
+
+				var i = 0;
+				for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
+					for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
+
+						var amp = analyser.data[iy]; 
+						
+						particle = particles[ i++ ];
+						particle.material.color.setHex(color_val);
+						particle.material.opacity = amp;
+					}
+				}
+            }
+            
+            //Variate particle color
+			function particleDisco() {
+				var i = 0;
+				for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
+					for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
+
+						var ampOpa = analyser.data[iy];
+						var ampCol = analyser.data[iy] / (fftSize);
+
+						particle = particles[ i++ ];
+						particle.material.color.setHex(5* particle.position.y/1000000 * 0xffffff);
+						particle.material.opacity = ampOpa;
+					}
+				}
+            }
+            
+            //Load File
+            function handleFiles(event) {
+                var files = event.target.files;
+                setAudio(URL.createObjectURL(files[0]));
+				console.log(files[0].name)
+				
+				document.getElementById("songName").innerHTML = "<h1>Now playing: " + files[0].name + "</h1>";				
+            }
+
+            //Set Sound
+            function setAudio(src) {
+				console.log(sound.getPlaybackRate());
+                audioLoader.load(src, function (buffer) {
+					sound.pause();
+					sound.setBuffer(buffer);
+					sound.offset = 0;
+					sound.setVolume(options.volume);
+					sound.play();
+            });
+            }
+            
+			//Set Sound
+            function createStrings() {
+				while (scene.children.length > 0) {
+					scene.remove(scene.children[0]);
+				}
+
+				var PI2 = Math.PI * 2;
+
+				var i = 0;
+				var j = 0;
+
+				for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
+
+					for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
+						material[ j ] = new THREE.SpriteCanvasMaterial({
+							
+							color: 0xffffff,
+							program: function (context) {
+
+								context.beginPath();
+								context.arc(0, 0, 0.5, 0, PI2, true);
+								context.fill();
+
+							}
+
+						});
+
+						particle = particles[ i ++ ] = new THREE.Sprite( material[ j++ ] );
+						particle.position.x = ix * SEPARATION - ( ( AMOUNTX * SEPARATION ) / 2 );
+						particle.position.z = iy * SEPARATION - ( ( AMOUNTY * SEPARATION ) / 2 );
+						scene.add( particle );
+
+					}
+
+				}
+            }
+		</script>
+	</body>
+</html>
